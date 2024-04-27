@@ -1,4 +1,4 @@
-package com.fzdkx.structure.adapter;
+package com.fzdkx.structure.adapter.clazz;
 
 /**
  * @author 发着呆看星

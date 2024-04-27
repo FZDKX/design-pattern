@@ -1,4 +1,5 @@
-package com.fzdkx.structure.adapter;
+package com.fzdkx.structure.adapter.object;
+
 
 /**
  * @author 发着呆看星
@@ -9,6 +10,6 @@ public class Main {
         // 使用 Compute 读取 TF Card
         Computer computer = new Computer();
         // 传入 Adapter 代替 目标接口
-        computer.readSD(new SDCardAdapter());
+        computer.readSD(new SDCardAdapter(new TFCardImpl()));
     }
 }
